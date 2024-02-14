@@ -183,18 +183,6 @@ figcaption {
     text-align: center;
 }
 
-
-
-
-
-
-/* Clear float to prevent layout issues */
-.hero article::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 footer {
     text-align: center;
     margin-top: 20px; 
