@@ -38,7 +38,7 @@ header {
 }
 
 header img {
-    margin: 0 0.25rem 0 1 rem;
+    margin: 0 0.25rem 0 1rem;
     width: 64px;
     height: auto;
 }
@@ -116,7 +116,7 @@ article {
 .flexbox-item-1 {
     min-height: 100px;
     flex-grow: 2;
-    border-color: 1px solid black;
+    border: 1px solid black;
 }
 
 .flexbox-item-1 p {
@@ -126,7 +126,7 @@ article {
 .flexbox-item-2 {
     max-height: 280px;
     background-color: steelblue;
-    border-color: 1px solid black;
+    border: 1px solid black;
     
 }
 
@@ -137,7 +137,7 @@ article {
 .flexbox-item-3 {
     max-height: 300px;
     flex-grow: 2;
-    border-color: 1px solid black;
+    border: 1px solid black;
 }
 
 .flexbox-item-3 p {
