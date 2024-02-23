@@ -21,6 +21,7 @@ body{
     padding: 20px;
     margin: 0 auto;
     font-size: 16px;
+    background-color: var(--nav-hover-background-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -445,7 +446,7 @@ figcaption {
 /* home area end */
 /* trip start  */
 .hero-trip {
-    background-image: url('trips-hero.jpg');
+    background-image: url('hero-home.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -462,7 +463,7 @@ figcaption {
 }
 
 .grid-item-trip {
-    background-color: #ffffff;
+    background-color: var(--accent1-color);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -497,13 +498,13 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--nav-background-color);
     padding: 8px;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: var(--nav-hover-background-color);
 }
 
 /* Call to Action */
@@ -528,6 +529,7 @@ th {
 /* footer area start */
 
 footer {
+    background-color: var(--nav-hover-link-color);
     text-align: center;
     margin-top: 20px; 
 }
