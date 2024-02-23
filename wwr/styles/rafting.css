@@ -323,6 +323,33 @@ figcaption {
     font-weight: 500;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    gap: 20px; /* Space between items */
+    align-items: start; /* Align items to the start of the cell */
+    max-width: 840px; /* Adjust based on your design needs */
+    margin: 0 auto; /* Center the grid in the middle of its parent */
+    padding: 20px; /* Optional: Adds some padding around the grid */
+}
+
+.grid-1, .box1 {
+    text-decoration: none;
+    background-color: var(--accent1-color); 
+    border: 1px solid #ddd;
+    padding: 15px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.grid-1 img, .box1 img {
+    width: 100%; 
+    max-width: 150px; 
+    height: auto;
+    border: 1px solid steelblue; 
+    box-shadow: 0 0 8px rgba(0,0,0,0.1); 
+    margin-right: 10px; 
+    float: left; /* Align image to the left of the text */
+}
 /* contact area end */
 
 /* footer area start */
